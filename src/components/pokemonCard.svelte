@@ -14,9 +14,9 @@
 		<img
 			src={pokemon.image}
 			alt={pokemon.name}
-			class="w-[250px] h-[300px] scale-100 hover:scale-125 "
+			class="w-[250px] h-[290px] scale-100 hover:scale-125 "
 		/>
-		<h2 class="text-center text-xl font-bold uppercase">
+		<h2 class="text-center text-xl hover:text-3xl font-bold uppercase">
 			{pokemon.id}. {pokemon.name}
 		</h2>
 	</a>
